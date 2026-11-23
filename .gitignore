@@ -1,0 +1,19 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+# Backend uploaded images
+backend/uploads/*
+!backend/uploads/.gitkeep
